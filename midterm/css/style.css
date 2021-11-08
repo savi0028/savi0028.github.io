@@ -64,7 +64,9 @@ body {
 		position: relative;
 		text-align: center;
 		color: white;
-		margin: 0%
+		margin: 0%;
+		margin-bottom: -2px;
+
 
 	  }
 
@@ -95,6 +97,7 @@ body {
 	font-size: 18px;
 	width: 33%; 
 	text-align: center;
+	margin-top: 2px;
 }
 
 .story,.contact {
@@ -148,17 +151,17 @@ input, textarea {
 	width: 100%;
 	margin: 10px 0 10px 0;
 }
+
+.radio {
+	width: auto;
+}
 h4 {
 	margin: 10px 0 10px 0;
 }
 button {
 	background-color: rgb(189, 222, 223);
 	padding: 10px;
-}
-
-.container {
-	float: left;
-	position: relative;
+	display: block;
 }
 
 footer {
